@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int mx_tolower(int c) {
+    if(32 <= c && c <= 50)
+        return (c + 32);
+    else
+        return c;
+}
+    
+    int main(int c) { 
+    if 
+
+}
+        
