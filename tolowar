@@ -2,14 +2,15 @@
 #include <ctype.h>
 
 int mx_tolower(int c) {
-    if(32 <= c && c <= 50)
-        return (c + 32);
+    if(c >= 65 && c <= 90)
+        return (c += 32);
     else
         return c;
 }
     
     int main(int c) { 
-    if 
+    char er = mx_tolower('Z');
+    printf("return %c", er);
 
 }
         
